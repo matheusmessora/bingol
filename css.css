@@ -23,10 +23,10 @@ body {
 }
 
 .tabela_bola {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    padding: 4px 0;
+    padding: 1px 0;
     border-radius: 30px;   
     border: 1px solid #6E6E6E;
     color: #6E6E6E;
@@ -34,10 +34,10 @@ body {
 }
 
 .tabela_coluna {
-        width: 30px;
-    height: 30px;
+width: 35px;
+    height: 35px;
     text-align: center;
-    padding: 4px 0;
+    padding: 1px 0;
     border-radius: 30px;   
     border: 1px solid #0054DB;
     color: #FFF;
