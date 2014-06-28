@@ -3,13 +3,13 @@ body {
 }
 
 #bolao {
-    font-size: 40em;   
+    font-size: 25em;   
     text-align: center;
     color: yellow;
 }
 
 #bolao_coluna {
-    font-size: 40em;   
+    font-size: 25em;   
     text-align: center;
     color: #26FF26;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .bolas {
-    font-size: 2em;   
+    font-size: 1em;   
 }
 
 .tabela_bola {
@@ -28,9 +28,9 @@ body {
     text-align: center;
     padding: 4px 0;
     border-radius: 30px;   
-    border: 2px solid #6E6E6E;
+    border: 1px solid #6E6E6E;
     color: #6E6E6E;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .tabela_coluna {
@@ -39,10 +39,10 @@ body {
     text-align: center;
     padding: 4px 0;
     border-radius: 15px;   
-    border: 2px solid #0054DB;
+    border: 1px solid #0054DB;
     color: #FFF;
     background: #0054DB;
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 
