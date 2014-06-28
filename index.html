@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
-      <link rel="stylesheet" type="text/css" href="css.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+      
         <script src="js.js" type="application/javascript"></script>
         
         <!-- Latest compiled and minified CSS -->
@@ -19,6 +20,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+        <link rel="stylesheet" type="text/css" href="css.css">
       <script>
          
       </script>
@@ -27,33 +29,29 @@
     <div class="container-fluid">
 
         <div class="row">
-          <div class="col-md-1"><button type="button" class="btn btn-lg btn-primary" id="start">Iniciar Rodada</button></div>
-          <div class="col-md-1"><button type="button" class="btn btn-lg btn-primary btn-success" id="role">Sortear Bola</button></div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
-          <div class="col-md-1">.col-md-1</div>
+          <div class="col-md-2"><button type="button" class="btn btn-lg btn-primary" id="start">Iniciar Rodada</button></div>
+          <div class="col-md-2"><button type="button" class="btn btn-lg btn-primary btn-success" id="role">Sortear Bola</button></div>
+          <div class="col-md-2"><button type="button" class="btn btn-lg btn-primary btn-warning active"><span class="last_ball"></span></button></div>
+          <div class="col-md-2"><button type="button" class="btn btn-lg btn-primary btn-warning active">Restantes: <span class="ball_remaining">75</span></button></div>
+          <div class="col-md-2"><button type="button" class="btn btn-lg btn-primary btn-warning active">Bolas sorteadas: <span class="ball_sorted">0</span></button></div>
+          <div class="col-md-1"> </div>
+          <div class="col-md-1"> </div>
         </div>
         
         <div class="row">
            <div class="col-md-9">
-               <div id="bolao">
-                   50
+               <div class="centralizado">
+                   <span id="bolao_coluna"> </span>
+                   <span id="bolao"> </span>
                </div>
             </div>
-          <div class="col-md-3">
+          <div class="col-md-3 bolas">
                <div class="row">
-                    <div class="col-md-2">B</div>
-                    <div class="col-md-2">I</div>
-                    <div class="col-md-2">N</div>
-                    <div class="col-md-2">G</div>
-                    <div class="col-md-2">O</div>
+                    <div class="col-md-2"><div class="tabela_coluna">B</div></div>
+                    <div class="col-md-2"><div class="tabela_coluna">I</div></div>
+                    <div class="col-md-2"><div class="tabela_coluna">N</div></div>
+                    <div class="col-md-2"><div class="tabela_coluna">G</div></div>
+                    <div class="col-md-2"><div class="tabela_coluna">O</div></div>
                </div>
               
               

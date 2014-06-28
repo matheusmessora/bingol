@@ -1,22 +1,65 @@
+body {
+    background: #000;   
+}
+
 #bolao {
     font-size: 40em;   
     text-align: center;
+    color: yellow;
 }
 
+#bolao_coluna {
+    font-size: 40em;   
+    text-align: center;
+    color: #26FF26;
+}
+
+.centralizado {
+    text-align: center;   
+}
+
+.bolas {
+    font-size: 2em;   
+}
 
 .tabela_bola {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 30px;   
+    border: 2px solid #6E6E6E;
+    color: #6E6E6E;
+    margin-bottom: 5px;
+}
+
+.tabela_coluna {
+    width: 50px;
+    height: 50px;
     text-align: center;
     padding: 4px 0;
     border-radius: 15px;   
-    border: 1px solid #ACACAC;
-    color: #ACACAC;
+    border: 2px solid #0054DB;
+    color: #FFF;
+    background: #0054DB;
+    margin-bottom: 5px;
 }
 
 
 .sorted {
-    border: 1px solid #FFCD03;
-    color: #FFCD03;
-    background: #000;
+    border: 2px solid #0054DB;
+    color: #FFF;
+    background: #0054DB;
+}
+
+.ball_remaining {
+    font-weight: bold;
+}
+
+.ball_sorted {
+    font-weight: bold;
+}
+
+.last_ball {
+    font-weight: bold;
 }
