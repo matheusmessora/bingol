@@ -110,6 +110,7 @@ function reset(){
     
     
     bolasSorteadas = new Array();
+    bolas = new Array(); 
     for (i = 1; i <= 75; i++) { 
         bolas.push(i);
     }
